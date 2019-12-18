@@ -3,8 +3,10 @@
 
 using namespace std;
 void slove();
-const int MAX_N = 100;
-int n, a[MAX_N];
+const int MAX_N = 5;
+int n = MAX_N;
+int a[MAX_N] = {2, 3, 4, 5, 10};
+
 int main(int argc, char *argv[]) {
 	slove();
 }
@@ -24,5 +26,5 @@ void slove() {
 			}
 		}
 	}
-	printf("%d¥n", ans);
+	printf("%d\n", ans);
 }
