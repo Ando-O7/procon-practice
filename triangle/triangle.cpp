@@ -3,9 +3,11 @@
 
 using namespace std;
 void slove();
+// ===== ↓↓↓input↓↓↓ ===== //
 const int MAX_N = 5;
 int n = MAX_N;
 int a[MAX_N] = {2, 3, 4, 5, 10};
+// ===== ↑↑↑input↑↑↑ ===== //
 
 int main(int argc, char *argv[]) {
 	slove();
