@@ -1,7 +1,6 @@
 #include <iostream>
 #include <algorithm>
 
-using namespace std;
 void slove();
 // ===== ↓↓↓input↓↓↓ ===== //
 const int MAX_N = 3;
