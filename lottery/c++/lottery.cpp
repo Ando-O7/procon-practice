@@ -40,8 +40,8 @@ bool binarySearch(int x) {
     // x range is k[l], k[l+1], ..., k[r-1]...
     int l = 0, r = n;
 
-    while (r - 1 >= 1) {
-        int i = (1 + r) / 2;
+    while (r - l >= 1) {
+        int i = (l + r) / 2;
         if (k[i] == x) return true; // found
         else if (k[i] < x) l = i + 1;
         else r = i;
