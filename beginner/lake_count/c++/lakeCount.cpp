@@ -25,7 +25,7 @@ int main(int argc, char *argv[]) {
 }
 
 // current position x,y
-void dfs(int x, int y) {
+void dfs(int x, int y) { // Depth-first search : dfs
 	// replace
 	field[x][y] = '.';
 
