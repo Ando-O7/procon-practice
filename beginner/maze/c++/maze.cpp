@@ -55,13 +55,14 @@ int bfs() { // Breadth-first search : bfs
     // set queue start position
     // this point distance zero
     que.push(P(sx, sy));
-    d[sx][sy] = 0;;
+    d[sx][sy] = 0;
 
     // loop until the queue is empty
     while (que.size()) {
         // get queue of first
         P p = que.front();
         que.pop();
+        printf("%d\n", que);
         
         // finish if state goal point
         if (p.first == gx && p.second == gy) break;
