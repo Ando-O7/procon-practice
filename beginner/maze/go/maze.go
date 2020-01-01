@@ -52,7 +52,7 @@ func bfs() int {
 
 	for len(que) > 0 {
 		p := que[0]
-		que = que[:len(que)-1]
+		que = que[1:]
 		if p.x == gx && p.y == gy {
 			break
 		}
