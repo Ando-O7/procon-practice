@@ -27,11 +27,11 @@ func main() {
 		}
 
 		if left {
-			a++
 			fmt.Print(S[a])
+			a++
 		} else {
-			b--
 			fmt.Print(S[b])
+			b--
 		}
 	}
 }
