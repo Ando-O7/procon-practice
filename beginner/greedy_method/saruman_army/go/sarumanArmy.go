@@ -19,8 +19,8 @@ func main() {
 	i := 0
 	ans := 0
 	for i < N {
-		i++
 		s := X[i]
+		i++
 
 		for i < N && X[i] <= s+R {
 			i++
